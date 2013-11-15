@@ -1,4 +1,4 @@
-<game background="background.png" diceChooserBackgroundImage="diceChooserBackgroundImage.png">
+<game background="background.png" diceChooserBackgroundImage="chooser.png">
     <symboles>
 	    <symbole id="range" image="range.png"/>
 	</symboles>
