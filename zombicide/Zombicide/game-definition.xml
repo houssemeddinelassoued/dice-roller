@@ -1,0 +1,29 @@
+<game background="background.png" diceChooserBackgroundImage="chooser.png">
+    <symboles>
+	    <symbole id="range" image="range.png"/>
+	</symboles>
+	<dices>
+	    <dice id="d6" type="d6" view="d6-view.png" UVtexture="d6.png">
+	        <faces>
+	        	<face num="1">
+	        	    <symbole-ref ref-id="range" value="1"/>
+	        	</face>
+	        	<face num="2">
+	        	    <symbole-ref ref-id="range" value="2"/>
+	        	</face>
+	        	<face num="3">
+	        	    <symbole-ref ref-id="range" value="3"/>
+	        	</face>
+	        	<face num="4">
+	        	    <symbole-ref ref-id="range" value="4"/>
+	        	</face>
+	        	<face num="5">
+	        	    <symbole-ref ref-id="range" value="5"/>
+	        	</face>
+	        	<face num="6">
+	        	    <symbole-ref ref-id="range" value="6"/>
+	        	</face>
+	        </faces>
+	    </dice>
+	</dices>
+</game>
