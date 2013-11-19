@@ -25,5 +25,27 @@
 	        	</face>
 	        </faces>
 	    </dice>
+		<dice id="d6-6p" type="d6" view="d6-6p-view.png" UVtexture="d6-6p.png">
+			<faces>
+				<face num="1">
+					<symbole-ref ref-id="fail" value="0"/>
+				</face>
+				<face num="2">
+					<symbole-ref ref-id="fail" value="0"/>
+				</face>
+				<face num="3">
+					<symbole-ref ref-id="fail" value="0"/>
+				</face>
+				<face num="4">
+					<symbole-ref ref-id="fail" value="0"/>
+				</face>
+				<face num="5">
+					<symbole-ref ref-id="fail" value="0"/>
+				</face>
+				<face num="6">
+					<symbole-ref ref-id="range" value="1"/>
+				</face>
+			</faces>
+		</dice>
 	</dices>
 </game>
